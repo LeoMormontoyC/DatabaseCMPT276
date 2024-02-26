@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student database</title>
+    <link rel="stylesheet" href="css/asn2.css">
+    <script src="js/asn2Logic.js"></script>
+</head>
+<body>
+    <main class = "mainpart" >
+        <h1>Student database</h1>
+        <div id = "start">
+            <button id = "viewStudentsBtn" >Start</button>
+            <script>
+                document.getElementById('viewStudentsBtn').addEventListener('click', function() {
+                    window.location.href = '/students/view';
+                });
+            </script>
+        </div>
+    </main>
+</body>
+</html>

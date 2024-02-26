@@ -1,0 +1,92 @@
+*{
+    font-family: "Verdana", sans-serif, serif;
+}
+
+body {
+    background: gray;
+}
+
+.mainpart {
+    
+    text-align: center;
+    background: white;
+    width: 50%;
+    height: auto;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px; 
+}
+
+.btnpart {
+    
+    text-align: center;
+    background: gray;
+    /* width: 50%;
+    height: auto;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;  */
+}
+
+#viewStudentsBtn {
+    background: #3352a0;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-primary {
+    background: #3352a0;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.student-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.student-visual {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position:relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.student-name {
+    padding: 5px;
+    color: black;
+    text-align: center; /* Center the name below the rectangle */
+}
+/* Additional styles for the GPA and visualization container */
+.student-gpa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.visualization-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.student-container {
+    margin-bottom: 20px; /* Space below the name */
+}
